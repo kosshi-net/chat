@@ -1,5 +1,5 @@
 {
 	"enable_file_server" : true,
 	"file_server_port": 80,
-	"mongodb_url": "mongodb://localhost:27017/haaarchat"
+	"mongodb_url": "mongodb://localhost:27017/chat"
 }

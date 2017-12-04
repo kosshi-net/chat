@@ -1,0 +1,31 @@
+PALVELIN
+
+Asennus
+
+Asenna Node.js versio v6.1.0 ja npm. Pura tämä kansio haluamaasi sijaintiin. Suorita 'npm-install.bat'.
+
+Tietokantayhteys
+
+Palvelin käyttää MongoDB:tä. Muokkaa tiedostosta config.json tietokannan url-osoite. 
+
+Käynnistys
+
+Suorita run.bat.
+
+Käyttö
+
+Palvelimen sammuttaaksesi kirjoita komentolinjaan 'stop'. Myös 'eval'-komento on käytettävissä, jolla pystyy suorittamaan Javascript-koodia.
+
+SIVUSTOT
+
+Palvelin sisältää saattisen tiedostopalvelimen mukanaan. Voit ottaa tämän myös pois käytöstä config.json-tiedostosta ("enable_file_server"=false) jos haluat käyttää esim Apachea. Tässä tapauksessa julkaise www-kansion sisältö.
+
+Käyttö
+
+Rekisteröidy. Luo huone painamalla plus-merkkiä ja kirjoittamalla huoneen nimi 'Room name'-kenttään. Voit kutsua muita käyttäjiä tähän huoneeseen painamalla 'Create invite'. Kopioi tämä osoite ja käytä avaamalla se selaimessa sillä käyttäjällä jonka kyseiseen huoneeseen haluat lisätä. Tämä osoite on käytettävissä vain kerran. Kutsuosoitteita voit luoda vain huoneissa jotka olet itse luonut. 
+
+Voit valita huoneen painamalla sen nimeä yläpalkissa. Huoneessa voit sanoa jotain kirjoittamalla alakenttään ja painamalla enter.
+Huoneessa ollessasi, roskakoria painamalla voit poistua siltä.
+
+Sivupalkissa näkyy kaikki huoneessa olevat. Vain käyttäjät värillisillä nimillä ovat paikalla. Väri generoidaan satunnaisesti.
+

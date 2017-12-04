@@ -1,0 +1,19 @@
+{
+  "name": "haaarchat",
+  "version": "1.0.0",
+  "description": "Kouluprojekti",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Daniel Niskala",
+  "license": "ISC",
+  "dependencies": {
+    "deasync": "^0.1.9",
+    "mime": "^1.3.6",
+    "mongodb": "^2.2.26",
+    "sha256": "^0.2.0",
+    "websocket": "^1.0.24"
+  }
+}

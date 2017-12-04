@@ -1,0 +1,261 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px; 
+	padding: 0px;
+	font-family: sans-serif;
+	background: #111;
+}
+.top {
+
+	/*height: 50px;*/
+	width: 100%;
+
+	height: 50px;
+
+	background: #222;
+
+	color: #aaa;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.clickable { 
+	cursor: pointer; 
+	cursor: hand; 
+}
+.clickable:hover { 
+	color: #fff;
+}
+
+
+
+.sysctrl{
+	float: right !important;
+	margin: 13px;
+	width: auto;
+}
+
+#rooms{
+	float: left;
+	width: calc(100% - 200px);
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 50px;
+
+
+
+	/*overflow: auto;*/
+    white-space: nowrap;
+}
+.room{
+	vertical-align: top;
+	/*float: left;*/
+	display: inline-block;
+}
+.sysctrl>i{
+	margin: 0 5px;
+}
+
+
+.middle {
+	height: calc(100% - 104px);
+	width: 100%;
+
+	background: #111;
+	color: #aaa;
+
+	margin-bottom: 10px;
+
+	/*float: left;*/
+}
+
+
+.messages {
+	/*min-height: calc(100px20px);*/
+	height: 100%;
+	float: left;
+	width: calc(100% - 100px);
+
+	overflow-y: scroll;
+}
+
+.userlist {
+	/*min-height: calc(100px20px);*/
+	height: 100%;
+	float: right;
+	width: 100px;
+
+	overflow-y: scroll;
+}
+
+.message {
+	margin: 2px 5px;
+}
+
+
+.bottom > input{
+	background: #222;
+	color: #aaa;
+	width: calc(100% - 110px);
+	border: none;
+	height: 50px;
+
+	/*margin: 0 !important;*/
+	/*padding: 5px 20px !important;*/
+	margin: 0 !important;
+	padding: 0 20px !important;
+}
+
+.bottom > button {
+	background: #222;
+	color: #aaa;
+	width: 70px;
+	border: none;
+	height: 50px;
+	margin: 0 !important;
+	padding: 0 !important;
+	float: right;
+}
+
+.backdrop{
+	position: absolute;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.popup{
+	text-align: center;
+	position: absolute;
+	color: #aaa;
+	top: calc(50% - 100px);
+	left: calc(50% - 200px);
+	background: #333;
+	height: 200px;
+	width: 400px;
+
+}
+
+.popup>h1{
+	margin: 10px;
+	padding: 0;
+	font-size: 1.5em;
+}
+
+
+button {
+	background: #222;
+	color: #aaa;
+	border: none;
+	height: 30px;
+	width: auto;
+	margin: 5px;
+	padding: 5px;
+}
+.room,
+.createroom>button
+ {
+	/*text-align: left;*/
+	background: #222;
+	color: #aaa;
+	border: none;
+	height: 50px;
+	margin: 0;
+	padding: 0 20px;
+	width: auto;
+	/*margin: 3px 0px;*/
+	/*padding: 15px;*/
+}
+
+.topcontrol>button,
+#createRoom{
+	display: none;
+}
+
+.room.selected {
+	color: #fff;
+	background: #111;
+	/*background: -webkit-linear-gradient(left, #111, #222 );*/
+}
+
+button:focus {outline:0;}
+
+
+.login, .register {
+	text-align: center;
+
+	width: 200px;
+	height: 250px;
+	background: #222;
+
+	position: absolute;
+
+	top: calc(50% - 100px);
+	left: calc(50% - 100px);
+
+
+}
+
+input {
+	background: #222;
+	color: #aaa;
+	width: auto;
+	height: 20px;
+	margin: 5px;
+	padding: 5px;
+	border: none;
+}
+
+.login > input, .register > input{
+	background: #333;
+	color: #aaa;
+	width: 180px;
+	border: none;
+	height: 20px;
+	margin: 5px;
+	padding: 5px;
+}
+.login> button, .register>button{
+	background: #333;
+	width: auto;
+	min-width: 50px;
+}
+
+.login > a, .register > a {
+	color: #aaa;
+}
+
+
+#createRoom > input {
+	background: #111;
+	color: #aaa;
+	width: 100px;
+	border: none;
+	height: 20px;
+}
+
+
+::-webkit-scrollbar{
+	width: 10px;
+	height: 0px;
+	background: #111;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #333;
+}
+
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-resizer{
+	background: #111;
+}

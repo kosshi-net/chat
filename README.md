@@ -3,7 +3,7 @@ A chat client with a node.js backend using mongodb to store users, rooms etc.
 
 This was a solo school project.
 
-![alt](https://kosshi.net/u/WJ4J.png)
+![chrome_2017-12-04_16-42-40](https://github.com/kosshi-net/chat/assets/19539479/16615c3f-8d53-4552-a95c-005ac5d99a27)
 
 ## External stuff used:
 Backend:

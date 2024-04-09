@@ -10,7 +10,7 @@ Backend:
 - https://github.com/mongodb/node-mongodb-native
 - https://github.com/cryptocoinjs/sha256
 - https://github.com/broofa/node-mime
-- https://github.com/abbr/deasync (to work around a stupid design mistake, seriously, do not look at the database code)
+- https://github.com/abbr/deasync (to work around a stupid design mistake - this project was built before async/await existed in Javascript)
 - https://github.com/theturtle32/WebSocket-Node
 
 Frontent:
